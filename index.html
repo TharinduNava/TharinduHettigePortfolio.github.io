@@ -382,7 +382,7 @@
 			<form id="form" action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data"
 				data-aos="fade-up" data-aos-delay="300">
 				<input type="hidden" name="access_key" value="095d70e4-48e2-4c1e-a52f-b0c7ed5cc3ad">
-				<input type="hidden" name="from_name" value="My Portfolio">
+				<input type="hidden" name="from_name" value="Portfolio by Tharindu">
 				<label for="name">Name:</label>
 				<input type="text" id="name" name="name" placeholder="Enter your name..." required><br><br>
 				<label for="email">Email Address:</label>
@@ -425,7 +425,7 @@
 				e.preventDefault();
 				const alertMessage = document.createElement('div');
 				alertMessage.style.color = 'red';
-				alertMessage.style.fontSize = '14px'; // Adjust font size as needed
+				alertMessage.style.fontSize = '14px';
 				alertMessage.textContent = 'Please fill out the captcha field!';
 				form.insertBefore(alertMessage, form.querySelector('.h-captcha').nextSibling);
 				setTimeout(function () {
