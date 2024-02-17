@@ -305,7 +305,7 @@ table {
 }
 
 th, td {
-    padding: 1rem;
+    padding: 1.5rem;
     border-bottom: 1px solid #eee; /* Adjust border color as needed */
     text-align: left;
 }
